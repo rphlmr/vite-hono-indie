@@ -4,10 +4,6 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-```sh
-npx create-remix@latest --template remix-run/indie-stack
-```
-
 ## What's in the stack
 
 - [Fly app deployment](https://fly.io) with [Docker](https://www.docker.com/)
