@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
 
+import { Title } from "~/components/title";
 import { useOptionalUser } from "~/utils";
 
 export const meta: MetaFunction = () => [{ title: "Remix Notes" }];
@@ -21,11 +22,7 @@ export default function Index() {
               <div className="absolute inset-0 bg-[color:rgba(254,204,27,0.5)] mix-blend-multiply" />
             </div>
             <div className="relative px-4 pb-8 pt-16 sm:px-6 sm:pb-14 sm:pt-24 lg:px-8 lg:pb-20 lg:pt-32">
-              <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                <span className="block uppercase text-yellow-500 drop-shadow-md">
-                  Indie Stack
-                </span>
-              </h1>
+              <Title>Indie Stack</Title>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
                 Check the README.md file for instructions on how to get this
                 project deployed.
